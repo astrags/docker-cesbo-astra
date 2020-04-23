@@ -2,6 +2,13 @@
 
 The image contains an astra stream server
 
+#Installation
+git clone https://github.com/domorelivelonger/docker-cesbo-astra.git
+cd docker-cesbo-astra
+#edit file license.txt and add license code
+# change port in docker-compose.yml
+
+docker-compose up -d
 ## Image environment variables
 
 | Variable | Default value | Description |
