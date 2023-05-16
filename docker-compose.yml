@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   astra:
-    image: sonrac/cesbo-astra
+    image: astra:v1.0.port.466
     privileged: true
     volumes:
       - ./license.txt:/etc/astra/license.txt
