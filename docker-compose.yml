@@ -6,6 +6,7 @@ services:
     privileged: true
     volumes:
       - ./license.txt:/etc/astra/license.txt
+      - ./context/astra.conf:/etc/astra/astra.conf
     ports:
       - 466:8000
     build:

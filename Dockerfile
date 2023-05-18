@@ -6,7 +6,7 @@ ENV ASTRA_SCRIPT ""
 ENV ASTRA_DISABLE_OUT "1"
 
 ADD ./context/entrypoint.sh /entrypoint.sh
-ADD ./context/astra.conf /etc/astra/astra.conf
+#ADD ./context/astra.conf /etc/astra/astra.conf
 
 RUN wget -O /bin/astra https://cesbo.com/astra-latest \
     && chmod +x /bin/astra && chmod +x /entrypoint.sh
